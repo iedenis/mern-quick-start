@@ -1,5 +1,5 @@
 {
-  "name": "express-es6-starter",
+  "name": "express-es",
   "version": "0.1.0",
   "description": "Seed project for easily getting started with express for es6",
   "scripts": {
@@ -19,12 +19,12 @@
     "Javascript",
     "Express"
   ],
-  "author": "Tom Yitav <tomyitav@gmail.com>",
+  "author": "Denis Ievlev <denis.ievlev@gmail.com>",
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.15.2",
     "cors": "^2.8.0",
-    "express": "4.14.0",
+    "express": "4.16.4",
     "lodash": "^4.15.0",
     "mongoose": "^4.8.6",
     "morgan": "^1.8.2",
