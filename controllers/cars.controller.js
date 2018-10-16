@@ -5,7 +5,6 @@ const controller = {};
 controller.getAll = async (req, res) => {
     try {
         const cars = await Car.getAll();
-        res.send(cars);
     }
     catch(err) {
         res.send('Got error in getAll');
