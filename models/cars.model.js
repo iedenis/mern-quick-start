@@ -5,6 +5,7 @@ const CarSchema = mongoose.Schema(
     { collection: 'Car' });
 
 let CarsModel = mongoose.model('Car', CarSchema);
+
 CarsModel.getAll = () => {
     return CarsModel.find({});
 }

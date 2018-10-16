@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.15.2",
     "cors": "^2.8.0",
+    "ejs": "^2.6.1",
     "express": "4.16.4",
     "lodash": "^4.15.0",
     "mongoose": "^4.8.6",
