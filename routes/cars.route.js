@@ -2,6 +2,9 @@ import express from "express";
 import carController from "../controllers/cars.controller"
 const router = express.Router()
 
+router.get('/', (req, res)=>{
+    res.render('index');
+})
 router.get('/cars', (req,res)=>{
     res.send("HELLO")
 })
