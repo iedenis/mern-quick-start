@@ -5,9 +5,11 @@ const router = express.Router()
 router.get('/', (req, res)=>{
     res.render('index');
 })
-router.get('/cars', (req,res)=>{
-    res.send("HELLO")
-})
+
+//pointer to async function. In case of rendering,
+//you have to add a path to the controller function (getAll)
+router.get('/cars', carController.getAll);
+
 router.get('/allcars', (req, res) => {
     carController.getAll(req, res);
 });

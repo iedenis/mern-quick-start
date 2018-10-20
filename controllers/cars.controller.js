@@ -2,9 +2,13 @@ import Car from '../models/cars.model'
 
 const controller = {};
 
+
 controller.getAll = async (req, res) => {
     try {
         const cars = await Car.getAll();
+
+        //in case of rendering page with arguments
+        //res.render('/cars', {data: data});
     }
     catch(err) {
         res.send('Got error in getAll');
