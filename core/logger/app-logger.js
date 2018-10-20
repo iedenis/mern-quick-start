@@ -15,7 +15,8 @@ let logger = new winston.Logger({
     transports: [
         new (winston.transports.Console)({
             colorize: true,
-        }),
+        })
+        /* file logging ,
         new winston.transports.DailyRotateFile({
             filename: config.logFileName,
             dirname: config.logFileDir,
@@ -23,6 +24,7 @@ let logger = new winston.Logger({
             maxFiles: 25,
             datePattern: '.dd-MM-yyyy'
         })
+        */
     ]
 });
 
