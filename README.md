@@ -18,7 +18,7 @@ git clone https://github.com/iedenis/mern-quick-start
 ```
 and run
 ```
-npm run mern-install`
+npm run mern-install
 ```
 
 ## Starting the project
