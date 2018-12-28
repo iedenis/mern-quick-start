@@ -21,11 +21,11 @@ and run
 npm run mern-install`
 ```
 
-## Starting the server
+## Starting the project
 
 ```
 npm run dev
 ```
 
-The server will run on port 3000. You can change this by editing `config.dev.js` file.
+The server will run on port 3000 and the client on port 4000. You can change this by editing `config.dev.js` file.
 
