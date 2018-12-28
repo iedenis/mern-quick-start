@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "client-install": "npm install --prefix client",
     "client": "npm start --prefix client",
+    "mern-install": "concurrently \"npm install\" \"npm run client-install\"",
     "dev": "concurrently  \"npm start\" \"npm run client\""
   },
   "repository": {
